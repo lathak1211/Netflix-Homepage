@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netflix Homepage</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background: #141313;
+    }
+
+    .logo img {
+      height: 80px;
+      width:125px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #ffffff;
+      font-weight: bold;
+      
+    }
+
+    .hero {
+      background-image: url('background.jpg');
+      background-size: cover;
+      color: #f4f2f2;
+      text-align: center;
+      padding: 158px 40px;
+    }
+
+    .hero h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: red;
+      color: #fff;
+      font-size: 1em;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo.jpg" alt="Netflix Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">TV Shows</a></li>
+        <li><a href="#">Movies</a></li>
+        <li><a href="#">My List</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Unlimited movies, TV <br> shows, and more.</h1>
+    <h3>Watch anywhere, Cancel anytime</h3>
+    <h5>Ready to watch? Enter your email to create or restart your membership.</h5>
+    <button>Sign Up</button>
+  </section>
+
+  
+</body>
+</html>
